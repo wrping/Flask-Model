@@ -194,118 +194,118 @@ def character_select(datas):
     return return_data
 
 # #
-# if __name__ == "__main__":
-# #     # 测试
-#     datas={
-#         "callbackFlag": "0",
-#         "dbInfo": {
-#             "dbAddr": "jdbc:mysql://192.168.1.33:3307/bigdata_hpc?characterEncoding=utf8&serverTimezone=UTC",
-#             "dbClass": "com.mysql.jdbc.Driver",
-#             "dbPassword": "biG@daTa.",
-#             "dbType": "02",
-#             "dbUser": "root",
-#             "dsId": "xj93jf9djwo9jdiwjdwdj9kdejokd3d9",
-#             "dsName": "数据质检测试",
-#             "operationName": "121",
-#             "operationTime": 1583903895000,
-#             "sourceType": "02"
-#         },
-#         "data":'',
-#         "dbMap": [{
-#             "columnName": "x1",
-#             "columnType": "DOUBLE",
-#             "inputItem": "X6",
-#             "isHost": "0",
-#             "name": "年末总人口"
-#         }, {
-#             "columnName": "x2",
-#             "columnType": "DOUBLE",
-#             "inputItem": "X12",
-#             "isHost": "0",
-#             "name": "第三产业与第二产业产值比"
-#         }, {
-#             "columnName": "x4",
-#             "columnType": "DOUBLE",
-#             "inputItem": "X13",
-#             "isHost": "0",
-#             "name": "居民消费水平"
-#         }, {
-#             "columnName": "x5",
-#             "columnType": "DOUBLE",
-#             "inputItem": "X4",
-#             "isHost": "0",
-#             "name": "城镇居民人均可支配收入"
-#         }, {
-#             "columnName": "x6",
-#             "columnType": "DOUBLE",
-#             "inputItem": "X7",
-#             "isHost": "0",
-#             "name": "全社会固定资产投资额"
-#         }, {
-#             "columnName": "x7",
-#             "columnType": "DOUBLE",
-#             "inputItem": "X1",
-#             "isHost": "0",
-#             "name": "社会从业人数"
-#         }, {
-#             "columnName": "x8",
-#             "columnType": "DOUBLE",
-#             "inputItem": "X8",
-#             "isHost": "0",
-#             "name": "地区生产总值"
-#         }, {
-#             "columnName": "y",
-#             "columnType": "DOUBLE",
-#             "inputItem": "Y",
-#             "isHost": "0",
-#             "name": "财政收入"
-#         }, {
-#             "columnName": "year",
-#             "columnType": "INT",
-#             "inputItem": "date",
-#             "isHost": "1",
-#             "name": "年份"
-#         }, {
-#             "columnName": "x9",
-#             "columnType": "DOUBLE",
-#             "inputItem": "X10",
-#             "isHost": "0",
-#             "name": "税收"
-#         }, {
-#             "columnName": "x10",
-#             "columnType": "DOUBLE",
-#             "inputItem": "X2",
-#             "isHost": "0",
-#             "name": "在岗职工工资总额"
-#         }, {
-#             "columnName": "x11",
-#             "columnType": "DOUBLE",
-#             "inputItem": "X5",
-#             "isHost": "0",
-#             "name": "城镇居民人均消费性支出"
-#         }, {
-#             "columnName": "x12",
-#             "columnType": "DOUBLE",
-#             "inputItem": "X9",
-#             "isHost": "0",
-#             "name": "第一产业产值"
-#         }, {
-#             "columnName": "x13",
-#             "columnType": "DOUBLE",
-#             "inputItem": "X3",
-#             "isHost": "0",
-#             "name": "社会消费品零售总额"
-#         }, {
-#             "columnName": "x3",
-#             "columnType": "INT",
-#             "inputItem": "X11",
-#             "isHost": "0",
-#             "name": "居民消费价格指数"
-#         }],
-#         "tableName": "test_finantial"
-# }
-#
-#     character_select(datas)
+if __name__ == "__main__":
+#     # 测试
+    datas={
+        "callbackFlag": "0",
+        "dbInfo": {
+            "dbAddr": "jdbc:mysql://192.168.1.33:3307/bigdata_hpc?characterEncoding=utf8&serverTimezone=UTC",
+            "dbClass": "com.mysql.jdbc.Driver",
+            "dbPassword": "biG@daTa.",
+            "dbType": "02",
+            "dbUser": "root",
+            "dsId": "xj93jf9djwo9jdiwjdwdj9kdejokd3d9",
+            "dsName": "数据质检测试",
+            "operationName": "121",
+            "operationTime": 1583903895000,
+            "sourceType": "02"
+        },
+        "data":'',
+        "dbMap": [{
+            "columnName": "x1",
+            "columnType": "DOUBLE",
+            "inputItem": "X6",
+            "isHost": "0",
+            "name": "年末总人口"
+        }, {
+            "columnName": "x2",
+            "columnType": "DOUBLE",
+            "inputItem": "X12",
+            "isHost": "0",
+            "name": "第三产业与第二产业产值比"
+        }, {
+            "columnName": "x4",
+            "columnType": "DOUBLE",
+            "inputItem": "X13",
+            "isHost": "0",
+            "name": "居民消费水平"
+        }, {
+            "columnName": "x5",
+            "columnType": "DOUBLE",
+            "inputItem": "X4",
+            "isHost": "0",
+            "name": "城镇居民人均可支配收入"
+        }, {
+            "columnName": "x6",
+            "columnType": "DOUBLE",
+            "inputItem": "X7",
+            "isHost": "0",
+            "name": "全社会固定资产投资额"
+        }, {
+            "columnName": "x7",
+            "columnType": "DOUBLE",
+            "inputItem": "X1",
+            "isHost": "0",
+            "name": "社会从业人数"
+        }, {
+            "columnName": "x8",
+            "columnType": "DOUBLE",
+            "inputItem": "X8",
+            "isHost": "0",
+            "name": "地区生产总值"
+        }, {
+            "columnName": "y",
+            "columnType": "DOUBLE",
+            "inputItem": "Y",
+            "isHost": "0",
+            "name": "财政收入"
+        }, {
+            "columnName": "year",
+            "columnType": "INT",
+            "inputItem": "date",
+            "isHost": "1",
+            "name": "年份"
+        }, {
+            "columnName": "x9",
+            "columnType": "DOUBLE",
+            "inputItem": "X10",
+            "isHost": "0",
+            "name": "税收"
+        }, {
+            "columnName": "x10",
+            "columnType": "DOUBLE",
+            "inputItem": "X2",
+            "isHost": "0",
+            "name": "在岗职工工资总额"
+        }, {
+            "columnName": "x11",
+            "columnType": "DOUBLE",
+            "inputItem": "X5",
+            "isHost": "0",
+            "name": "城镇居民人均消费性支出"
+        }, {
+            "columnName": "x12",
+            "columnType": "DOUBLE",
+            "inputItem": "X9",
+            "isHost": "0",
+            "name": "第一产业产值"
+        }, {
+            "columnName": "x13",
+            "columnType": "DOUBLE",
+            "inputItem": "X3",
+            "isHost": "0",
+            "name": "社会消费品零售总额"
+        }, {
+            "columnName": "x3",
+            "columnType": "INT",
+            "inputItem": "X11",
+            "isHost": "0",
+            "name": "居民消费价格指数"
+        }],
+        "tableName": "test_finantial"
+}
+
+    character_select(datas)
 
 
 
