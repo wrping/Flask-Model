@@ -2,3 +2,14 @@ pandas
 numpy
 pymysql
 sklearn
+json
+tarfile
+requests
+flask
+os
+pickle
+keras
+tensorflow
+statsmodels
+datetime
+dateutil
