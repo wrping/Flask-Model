@@ -7,4 +7,4 @@ ADD . /whole_control
 WORKDIR /whole_control
 
 EXPOSE 9000
-CMD [ "python" , "/whole_control.py"]
+CMD [ "python" , "whole_control.py"]
