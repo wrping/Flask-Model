@@ -95,7 +95,7 @@ if __name__ == "__main__":
     #启动服务
     # app.run()
     # app.run(host="0.0.0.0", port=9000,debug=True)
-    app.run(host="192.168.4.35", port=9000)
+    app.run(host="0.0.0.0", port=9000)
 
 
 
